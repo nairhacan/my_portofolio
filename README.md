@@ -18,9 +18,9 @@ Saya tidak menempuh pendidikan dari satu sumber saja. Saya menggabungkan **ilmu 
 - **SMK Assalaam**
 - **Institut Teknologi Bandung (ITB)** *(sebagai penyerapan ilmu, bukan almamater resmi)*
 - **Sandika Galih** – melalui video dan logika Front-End yang terstruktur
-- **Amirul Mukminin** – melalui pendekatan Back-End yang praktis
+- **Mas Faqih** – melalui pendekatan Back-End yang praktis
 - **Sofyan Setiawan** – dengan dasar-dasar OOP dan praktik MVC yang real
-- **Ute Jurnia** dan **Muhharafi** – melalui pembelajaran berbasis studi kasus
+- **Ute Jurnia** dan **Mulki** – melalui pembelajaran berbasis studi kasus
 
 Saya tidak selalu mengikuti kurikulum. Saya lebih percaya pada **alur belajar alami yang didorong rasa Serba ingin tahu juga Rasa Egois saya terhadapa Ilmu pengetahuan digital**.
 
