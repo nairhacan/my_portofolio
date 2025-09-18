@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xample - Developer Portfolio</title>
+    <meta name="description" content="Portfolio bisnis developer - Xample. Spesialisasi dalam pengembangan web modern, aplikasi mobile, dan solusi digital.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">NLFTs</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#blog" class="nav-link">Blog</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="nav-hamburger" id="nav-hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="hero-greeting">Hello, I'm</span>
+                        <span class="hero-name">Kina`SaQina</span>
+                        <span class="hero-title-typed" id="typed-text"></span>
+                    </h1>
+                    <p class="hero-description">
+                    fullstack Developer dengan Kreatifitas tinggi dan pengalaman dalam mengembangkan solusi digital yang inovatif dan efektif.
+                    dapat bekerja secara mandiri maupun dalam tim untuk mencapai tujuan proyek dengan hasil yang memuaskan.     
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary">
+                            <i class="fas fa-code"></i>
+                            Lihat Portfolio
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i>
+                            Hubungi Saya
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-avatar">
+                        <img src="Naiha-ungu-removebg-preview(1).png" alt="Xample Profile" id="hero-profile-img">
+                        <div class="hero-avatar-border"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <a href="#about" class="scroll-indicator">
+                    <span>Scroll Down</span>
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="hero-gradient"></div>
+            <div class="hero-particles" id="particles"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Sang Programer IT</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-info">
+                        <h3>Developer Indie</h3>
+                        <p>
+                            Saya adalah Seorang Developer Indie yang banyak bergerak di bidang pengembangan web aplikasi dan Game.
+                            saya tidak berhenti belajar dan selalu mengikuti perkembangan teknologi terbaru.
+                            sebagai Developer Indie, saya membangun Tim Kecil bernama Project FTs 
+
+                        </p>
+                        <p>
+                          Spesialis saya Cenderung Berfokus ke Laravel 12 dan juga React untuk tahun ini.
+                          saya tidak banyak memiliki pengalaman di bidang Developer, Tapi saya memiliki semangat yang tinggi untuk belajar dan berkembang.
+                        </p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="19">0</span>
+                            <span class="stat-label">Team</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="2">0</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="73">0</span>
+                            <span class="stat-label">our supporters</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-skills">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-grid" id="skills-container">
+                        <!-- Skills will be loaded from mock-data.js -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio</h2>
+                <p class="section-subtitle">AnyTime AnyWhere</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web App</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="fullstack">Fullstack</button>
+                <button class="filter-btn" data-filter="api">API</button>
+            </div>
+            <div class="portfolio-grid" id="portfolio-container">
+                <!-- Portfolio items will be loaded from mock-data.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">My Education journey</p>
+            </div>
+            <div class="experience-timeline" id="experience-timeline">
+                <!-- Timeline items will be loaded from mock-data.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Testimonials</h2>
+                <p class="section-subtitle">Beberapa Dari Mereka Percaya</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonials-container" id="testimonials-container">
+                    <!-- Testimonials will be loaded from mock-data.js -->
+                </div>
+                <div class="testimonials-navigation">
+                    <button class="testimonial-prev" id="testimonial-prev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="testimonial-next" id="testimonial-next">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Latest Blog</h2>
+                <p class="section-subtitle">Dokumentasi Lengkap Dan Membantu</p>
+            </div>
+            <div class="blog-grid" id="blog-container">
+                <!-- Blog posts will be loaded from mock-data.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Masukan Kecil Dari anda Bermakna Besar bagi kami</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <span>Email</span>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nlfts.etc@gmail.com&subject=Hai%20admin&body=Saya%20ingin%20bertanya">nlfts.etc@email.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <span>Phone</span>
+                            <a href="https://wa.me/62882001289177?text=Halo%20Admin">+62 882-0012-89177</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <span>Location</span>
+                            <span>Bandung, Indonesia</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/nairhacan" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://wa.me/62882001289177?text=Halo%20Admin" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.youtube.com/@GM.prodaction" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="https://instagram.com/nairhashaffa" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>NLFTs</h3>
+                    <p>Percayakan Bisnis anda pada kami.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Navigation</h4>
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Services</h4>
+                        <a href="#">Web Development</a>
+                        <a href="#">Mobile Apps</a>
+                        <a href="#">API Development</a>
+                        <a href="#">Consulting</a>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Connect</h4>
+                        <a href="https://github.com/nairhacan">GitHub</a>
+                        <a href="https://wa.me/62882001289177?text=Halo%20Admin">WhatsApp</a>
+                        <a href="#">Twitter</a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nlfts.etc@gmail.com&subject=Hai%20admin&body=Saya%20ingin%20bertanya">Email</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FTs Project. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="mock-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
