@@ -64,5 +64,5 @@ Portofolio ini bukan untuk pamer, tapi sebagai:
 - **Jejak digital pribadi**
 - **Tempat orang lain bisa mengenal saya tanpa mengenal saya**
 
-Jika kamu sampai di sini, mungkin kamu sedang mencari inspirasi atau seseorang dengan cara berpikir yang sama.  
+Jika kamu sampai di sini, mungkin kamu sedang mencari inspirasi atau seseorang dengan cara berpikir yang sama anda bisa lihat lebih lanjut di https://nairhacan.github.io/my_portofolio.  
 Selamat datang di company NLFTs
